@@ -251,19 +251,56 @@ await emailjs.send(
 
         alert("Enquiry submitted successfully!");
         contactForm.reset();
+        
       } catch (error) {
   console.error("Form submit error:", error);
 
-  if (error?.text) {
-    alert("Email notification failed: " + error.text);
-  } else {
-    alert("Request failed. Console error check कर.");
-  }
+  alert(
+    "Request failed: " +
+    (error?.message || error?.text || JSON.stringify(error))
+  );
 }
+
  finally {
         submitButton.disabled = false;
         submitButton.textContent = "Send Enquiry";
       }
     });
   }
+});
+
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+
+  if (!loader) return;
+
+  if (!navigator.onLine) {
+    loader.classList.add("offline");
+    return;
+  }
+
+  setTimeout(() => {
+    loader.classList.add("hide");
+  }, 900);
+});
+
+window.addEventListener("offline", () => {
+  const loader = document.getElementById("loader");
+
+  if (!loader) return;
+
+  loader.classList.remove("hide");
+  loader.classList.add("offline");
+});
+
+window.addEventListener("online", () => {
+  const loader = document.getElementById("loader");
+
+  if (!loader) return;
+
+  loader.classList.remove("offline");
+
+  setTimeout(() => {
+    loader.classList.add("hide");
+  }, 800);
 });
