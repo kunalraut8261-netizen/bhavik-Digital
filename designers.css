@@ -706,15 +706,28 @@ footer{background:#111;color:white;text-align:center;padding:28px}
 
 }
 .designer-logo{
+  position:absolute;
+  left:20px;
+  top:5px;
+  z-index:1001;
   display:flex;
   align-items:center;
   text-decoration:none;
-  position:relative;
-  left:-70px;
 }
 
 .designer-logo img{
-  height:105px;
+  height:120px;
   width:auto;
   display:block;
+}
+
+@media(max-width:768px){
+  .designer-logo{
+    left:10px;
+    top:10px;
+  }
+
+  .designer-logo img{
+    height:60px;
+  }
 }
