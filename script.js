@@ -28,10 +28,7 @@ emailjs.init({
   publicKey: "3SqAn3Eo2xHMw1FC0",
 });
 
-const appCheck = initializeAppCheck(app, {
-  provider: new ReCaptchaV3Provider("6Lf9mCYtAAAAAPmTvycu-CBv9dsns0PrQj0h0Wkb"),
-  isTokenAutoRefreshEnabled: true
-});
+
 
 document.addEventListener("DOMContentLoaded", function () {
   const loader = document.getElementById("loader");
@@ -306,31 +303,6 @@ window.addEventListener("online", () => {
 });
 
 
-
-const themeToggle = document.getElementById("themeToggle");
-
-function applySavedTheme(){
-  const savedTheme = localStorage.getItem("siteTheme");
-
-  if(savedTheme === "dark"){
-    document.body.classList.add("dark-mode");
-    if(themeToggle) themeToggle.checked = true;
-  }else{
-    document.body.classList.remove("dark-mode");
-    if(themeToggle) themeToggle.checked = false;
-  }
-}
-
-applySavedTheme();
-
-if(themeToggle){
-  themeToggle.addEventListener("change", () => {
-    const isDark = themeToggle.checked;
-
-    document.body.classList.toggle("dark-mode", isDark);
-    localStorage.setItem("siteTheme", isDark ? "dark" : "light");
-  });
-}
 
 const circleMenuBtn = document.getElementById("circleMenuBtn");
 const circleContactMenu = document.getElementById("circleContactMenu");

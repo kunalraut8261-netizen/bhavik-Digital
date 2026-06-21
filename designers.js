@@ -257,27 +257,3 @@ if(themeToggle){
 
 
 
-const themeToggle = document.getElementById("themeToggle");
-
-function applySavedTheme(){
-  const savedTheme = localStorage.getItem("siteTheme");
-
-  if(savedTheme === "dark"){
-    document.body.classList.add("dark-mode");
-    if(themeToggle) themeToggle.checked = true;
-  }else{
-    document.body.classList.remove("dark-mode");
-    if(themeToggle) themeToggle.checked = false;
-  }
-}
-
-applySavedTheme();
-
-if(themeToggle){
-  themeToggle.addEventListener("change", () => {
-    const isDark = themeToggle.checked;
-
-    document.body.classList.toggle("dark-mode", isDark);
-    localStorage.setItem("siteTheme", isDark ? "dark" : "light");
-  });
-}
