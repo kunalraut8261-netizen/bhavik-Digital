@@ -1102,3 +1102,16 @@ form button {
     height:52px;
   }
 }
+
+.site-logo{
+  position:absolute !important;
+  left:0px !important;
+  top:12px !important;
+  z-index:1000 !important;
+}
+
+.site-logo img{
+  height:120px !important;
+  width:auto !important;
+  display:block !important;
+}
