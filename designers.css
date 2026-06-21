@@ -701,4 +701,14 @@ footer{background:#111;color:white;text-align:center;padding:28px}
   .tools-title{
     font-size:42px;
   }
+}.designer-logo{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+}
+
+.designer-logo img{
+  height:90px;
+  width:auto;
+  display:block;
 }
