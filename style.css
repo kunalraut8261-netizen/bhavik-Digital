@@ -1079,7 +1079,7 @@ form button {
 
 .site-logo{
   position:absolute;
-  left:25px;
+  left:10px;
   top:16px;
   z-index:1001;
   display:flex;
