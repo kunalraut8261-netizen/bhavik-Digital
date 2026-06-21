@@ -1104,14 +1104,14 @@ form button {
 }
 
 .site-logo{
-  position:absolute !important;
-  left:0px !important;
-  top:12px !important;
-  z-index:1000 !important;
+  position:absolute;
+  left:40px;
+  top:35px;
+  z-index:1000;
 }
 
 .site-logo img{
-  height:120px !important;
-  width:auto !important;
-  display:block !important;
+  height:95px;
+  width:auto;
+  display:block;
 }
