@@ -1079,15 +1079,15 @@ form button {
 
 .site-logo{
   position:absolute;
-  left:40px;
-  top:18px;
+  left:25px;
+  top:16px;
   z-index:1001;
   display:flex;
   align-items:center;
 }
 
 .site-logo img{
-  height:115px;
+  height:125px;
   width:auto;
   display:block;
 }
