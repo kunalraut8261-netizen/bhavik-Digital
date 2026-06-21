@@ -1094,11 +1094,11 @@ form button {
 
 @media(max-width:768px){
   .site-logo{
-    left:18px;
+    left:10px;
     top:14px;
   }
 
   .site-logo img{
-    height:62px;
+    height:52px;
   }
 }
