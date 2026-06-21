@@ -1105,7 +1105,7 @@ form button {
 
 .site-logo{
   position:absolute;
-  left:0px;
+  left:-70px;
   top:27px;
   z-index:1000;
 }
