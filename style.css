@@ -1077,36 +1077,41 @@ form button {
   }
 }
 
-/* ===============================
-   SITE LOGO - FINAL ALIGNMENT
-   Same position base for main page
-   =============================== */
-
 .site-logo{
-  position:absolute !important;
-  left:20px !important;
-  top:12px !important;
-  z-index:1001 !important;
-  display:flex !important;
-  align-items:center !important;
-  text-decoration:none !important;
+  position:absolute;
+  left:10px;
+  top:16px;
+  z-index:1001;
+  display:flex;
+  align-items:center;
 }
 
 .site-logo img{
-  height:120px !important;
-  width:auto !important;
-  display:block !important;
+  height:125px;
+  width:auto;
+  display:block;
 }
 
-/* Mobile logo */
 @media(max-width:768px){
   .site-logo{
-    left:10px !important;
-    top:12px !important;
+    left:10px;
+    top:14px;
   }
 
   .site-logo img{
-    height:58px !important;
+    height:52px;
   }
 }
 
+.site-logo{
+  position:absolute;
+  left:-70px;
+  top:27px;
+  z-index:1000;
+}
+
+.site-logo img{
+  height:115px;
+  width:auto;
+  display:block;
+}
