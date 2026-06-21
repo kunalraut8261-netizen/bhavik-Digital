@@ -1076,3 +1076,29 @@ form button {
     height:130px;
   }
 }
+
+.site-logo{
+  position:absolute;
+  left:40px;
+  top:18px;
+  z-index:1001;
+  display:flex;
+  align-items:center;
+}
+
+.site-logo img{
+  height:85px;
+  width:auto;
+  display:block;
+}
+
+@media(max-width:768px){
+  .site-logo{
+    left:18px;
+    top:14px;
+  }
+
+  .site-logo img{
+    height:62px;
+  }
+}
