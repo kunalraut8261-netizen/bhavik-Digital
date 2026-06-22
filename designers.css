@@ -815,6 +815,6 @@ body.dark-mode .theme-toggle{
 @media(max-width:768px){
   .theme-toggle{
     right:95px;
-    top:14px;
+    top:55px;
   }
 }
