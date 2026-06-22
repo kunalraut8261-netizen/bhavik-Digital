@@ -1079,7 +1079,7 @@ form button {
 
 .site-logo{
   position:absolute;
-  left:10px;
+  left:20px;
   top:16px;
   z-index:1001;
   display:flex;
@@ -1150,10 +1150,11 @@ form button {
 
 .site-logo{
   position:absolute;
-  left:-20px;
-  top:27px;
+  left: 30px;
+  top: 24px;
   z-index:1000;
 }
+
 
 .site-logo img{
   height:115px;
