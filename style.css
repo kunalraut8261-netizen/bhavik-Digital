@@ -1639,3 +1639,18 @@ body.dark-mode .theme-toggle{
     width:auto !important;
   }
 }
+
+@media(max-width:768px){
+
+  .top-social{
+    justify-content:flex-end !important;
+    padding-right:18px !important;
+    gap:22px !important;
+    width:100% !important;
+  }
+
+  .top-social a{
+    font-size:28px !important;
+  }
+
+}
