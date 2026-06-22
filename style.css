@@ -1593,3 +1593,35 @@ body.dark-mode .theme-toggle{
     transform:translate(-70px,-28px) scale(1) !important;
   }
 }
+
+
+
+
+.faq-container{
+  max-width:1000px;
+  margin:auto;
+  display:grid;
+  gap:20px;
+}
+
+.faq-item{
+  background:#fff;
+  border:1px solid #e5e5e5;
+  border-radius:16px;
+  padding:24px;
+  transition:.3s;
+}
+
+.faq-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+  margin-bottom:12px;
+}
+
+.faq-item p{
+  color:#666;
+  line-height:1.7;
+}
