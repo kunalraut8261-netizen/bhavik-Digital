@@ -1560,7 +1560,7 @@ body.dark-mode .theme-toggle{
     width:48px !important;
     height:48px !important;
     font-size:22px !important;
-    border-radius:0px !important;
+    border-radius:50% !important;
     right:20px !important;
     top:90px !important;
   }
