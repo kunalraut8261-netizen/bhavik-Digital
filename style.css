@@ -1660,7 +1660,7 @@ body.dark-mode .theme-toggle{
 /* FINAL MOBILE LOGO FIX */
 @media(max-width:768px){
   .site-logo{
-    left:0px !important;
+    left:10px !important;
     top:65px !important;
   }
 
