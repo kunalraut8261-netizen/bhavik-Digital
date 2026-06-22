@@ -1277,8 +1277,8 @@ body.dark-mode .theme-toggle{
   position:absolute;
   right:0;
   bottom:0;
-  width:62px;
-  height:62px;
+  width:50px;
+  height:50px;
   border:none;
   border-radius:50%;
   background:#1396a3;
@@ -1547,5 +1547,49 @@ body.dark-mode .theme-toggle{
   body.menu-open::before{
     content:none !important;
     display:none !important;
+  }
+}
+
+
+
+/* FINAL BUTTON SIZE & POSITION FIX */
+@media(max-width:768px){
+
+  /* Hamburger button: small + वर */
+  .mobile-btn{
+    width:48px !important;
+    height:48px !important;
+    font-size:22px !important;
+    border-radius:16px !important;
+    right:20px !important;
+    top:110px !important;
+  }
+
+  /* WhatsApp/Call circle menu: small + वर */
+  .circle-contact-menu{
+    right:18px !important;
+    bottom:90px !important;
+    width:100px !important;
+    height:100px !important;
+  }
+
+  .circle-main-btn{
+    width:50px !important;
+    height:50px !important;
+    font-size:22px !important;
+  }
+
+  .circle-item{
+    width:46px !important;
+    height:46px !important;
+    font-size:19px !important;
+  }
+
+  .circle-contact-menu.open .whatsapp-item{
+    transform:translate(-6px,-78px) scale(1) !important;
+  }
+
+  .circle-contact-menu.open .call-item{
+    transform:translate(-70px,-28px) scale(1) !important;
   }
 }
