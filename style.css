@@ -1560,17 +1560,17 @@ body.dark-mode .theme-toggle{
     width:48px !important;
     height:48px !important;
     font-size:22px !important;
-    border-radius:16px !important;
+    border-radius:0px !important;
     right:20px !important;
-    top:110px !important;
+    top:90px !important;
   }
 
   /* WhatsApp/Call circle menu: small + वर */
   .circle-contact-menu{
     right:18px !important;
     bottom:90px !important;
-    width:100px !important;
-    height:100px !important;
+    width:80px !important;
+    height:80px !important;
   }
 
   .circle-main-btn{
