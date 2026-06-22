@@ -1630,7 +1630,7 @@ body.dark-mode .theme-toggle{
 /* MOBILE LOGO LEFT ALIGN FIX */
 @media(max-width:768px){
   .site-logo{
-    left:-40px !important;
+    left:-60px !important;
     top:55px !important;
   }
 
