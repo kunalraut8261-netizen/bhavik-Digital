@@ -1568,7 +1568,7 @@ body.dark-mode .theme-toggle{
   /* WhatsApp/Call circle menu: small + वर */
   .circle-contact-menu{
     right:18px !important;
-    bottom:90px !important;
+    bottom:70px !important;
     width:80px !important;
     height:80px !important;
   }
