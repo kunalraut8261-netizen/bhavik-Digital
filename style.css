@@ -1655,3 +1655,18 @@ body.dark-mode .theme-toggle{
   }
 
 }
+
+
+/* FINAL MOBILE LOGO FIX */
+@media(max-width:768px){
+  .site-logo{
+    left:0px !important;
+    top:65px !important;
+  }
+
+  .site-logo img{
+    height:115px !important;
+    width:auto !important;
+    display:block !important;
+  }
+}
