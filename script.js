@@ -47,12 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 900);
 
   if (mobileBtn && navMenu) {
-    mobileBtn.addEventListener("click", () => navMenu.classList.toggle("show"));
-  }
-
+   mobileBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+  mobileBtn.classList.toggle("active");
+  document.body.classList.toggle("menu-open");
+});
+}
   document.querySelectorAll(".nav-menu a").forEach((link) => {
     link.addEventListener("click", () => {
       if (navMenu) navMenu.classList.remove("show");
+if (mobileBtn) mobileBtn.classList.remove("active");
+document.body.classList.remove("menu-open");
     });
   });
 
