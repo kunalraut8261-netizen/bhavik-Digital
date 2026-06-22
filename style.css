@@ -1625,3 +1625,17 @@ body.dark-mode .theme-toggle{
   color:#666;
   line-height:1.7;
 }
+
+
+/* MOBILE LOGO LEFT ALIGN FIX */
+@media(max-width:768px){
+  .site-logo{
+    left:-25px !important;
+    top:55px !important;
+  }
+
+  .site-logo img{
+    height:135px !important;
+    width:auto !important;
+  }
+}
