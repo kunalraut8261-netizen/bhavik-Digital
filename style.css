@@ -1644,7 +1644,7 @@ body.dark-mode .theme-toggle{
 
   .top-social{
     justify-content:flex-end !important;
-    padding-right:18px !important;
+    padding-right:14px !important;
     gap:18px !important;
     width:100% !important;
   }
